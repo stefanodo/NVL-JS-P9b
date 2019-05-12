@@ -1,0 +1,33 @@
+var a = "Lunes,Martes,Miercoles,Jueves,Viernes,Sabado,Domingo";
+
+var b = "Madrid.Sevilla.Barcelona.Valencia.Zaragoza.Bilbao.Donosti";
+
+a = (a.split(","));
+
+b = (b.split("."));
+
+var dia1 = (a[0]+b[0]);
+
+var dia2 = (a[1]+b[1]);
+
+var dia3 = (a[2]+b[2]);
+
+var dia4 = (a[3]+b[3]);
+
+var dia5 = (a[4]+b[4]);
+
+var dia6 = (a[5]+b[5]);
+
+var dia7 = (a[6]+b[6]);
+
+var conciertos = ([dia1, dia2, dia3, dia4, dia5, dia6, dia7]);
+
+console.log(dia1);
+console.log(dia2);
+console.log(dia3);
+console.log(dia4);
+console.log(dia5);
+console.log(dia6);
+console.log(dia7);
+
+console.log(conciertos);
